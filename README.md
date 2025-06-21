@@ -69,13 +69,13 @@ python mascot_ai_agent.py
 
 ---
 
-⚠️ 注意事項
+## ⚠️ 注意事項
 - このアプリはデスクトップ常駐型ですが、デスクトップアプリにはなっていません。
 - Gemini APIは別途準備・設定が必要です。
 - GUIサイズ・位置は固定（移動可能）、終了機能などは別途追加が必要です。
 
 ---
 
-📝 ライセンス
+## License
 
-MIT License
+This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE.md) file for details.
