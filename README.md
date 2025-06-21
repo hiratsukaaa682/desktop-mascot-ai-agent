@@ -46,6 +46,16 @@ cd desktop-mascot-ai-agent
 pip install -r requirements.txt
 ```
 
+1.  MCP Serverを使えるようにする
+```bash
+# Playwright MCP
+# 何も表示されなければOKです。
+npx @playwright/mcp@latest
+
+# Filesystem MCP
+npm install -g @modelcontextprotocol/server-filesystem
+```
+
 1.	.env に Gemini API キーを設定
 ```
 GOOGLE_APIKEY="your_apikey"
