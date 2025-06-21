@@ -34,32 +34,28 @@ https://github.com/user-attachments/assets/1f9a8738-054b-4321-887c-f69da7ffac25
 ---
 
 ## 📦 セットアップ手順
-
 1. リポジトリをクローン
-```bash
-git clone https://github.com/hiratsukaaa682/desktop-mascot-ai-agent.git
-cd desktop-mascot-ai-agent
-```
+    ```bash
+    git clone https://github.com/hiratsukaaa682/desktop-mascot-ai-agent.git
+    cd desktop-mascot-ai-agent
+    ```
+1. 依存関係をインストール
+    ```bash
+    pip install -r requirements.txt
+    ```
+1. MCP Serverを使えるようにする
+    ```bash
+    # Playwright MCP
+    # 何も表示されなければOKです。
+    npx @playwright/mcp@latest
 
-1.	依存関係をインストール
-```bash
-pip install -r requirements.txt
-```
-
-1.  MCP Serverを使えるようにする
-```bash
-# Playwright MCP
-# 何も表示されなければOKです。
-npx @playwright/mcp@latest
-
-# Filesystem MCP
-npm install -g @modelcontextprotocol/server-filesystem
-```
-
-1.	.env に Gemini API キーを設定
-```
-GOOGLE_APIKEY="your_apikey"
-```
+    # Filesystem MCP
+    npm install -g @modelcontextprotocol/server-filesystem
+    ```
+1. .env に Gemini API キーを設定
+    ```
+    GOOGLE_APIKEY="your_apikey"
+    ```
 
 ---
 
