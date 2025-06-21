@@ -27,8 +27,9 @@ https://github.com/user-attachments/assets/1f9a8738-054b-4321-887c-f69da7ffac25
 ## 🚀 動作環境
 
 - Python 3.13（※ 他のバージョンは未確認）
-- macOS m1（※ Windows / Linuxは未確認）
-- .envファイルに [Google AI Studio](https://aistudio.google.com/) のGemini APIキーを設定
+- Node.js
+- Macbook Air M1
+  - macOS Sequoia（※ Windows / Linuxは未確認）
 
 ---
 
