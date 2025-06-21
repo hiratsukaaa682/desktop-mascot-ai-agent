@@ -60,8 +60,10 @@ https://github.com/user-attachments/assets/1f9a8738-054b-4321-887c-f69da7ffac25
 ---
 
 ## 実行方法
-
+```bash
 python mascot_ai_agent.py
+```
+
 
 初回実行時、マスコットが「AIを準備中…」と表示します。起動後、自由に話しかけてください！
 
