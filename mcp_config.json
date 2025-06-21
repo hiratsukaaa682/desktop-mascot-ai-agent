@@ -1,0 +1,20 @@
+{
+    "mcpServers": {
+      "playwright": {
+        "command": "npx",
+        "args": [
+          "@playwright/mcp@latest"
+        ],
+        "transport": "stdio"
+      },
+      "file-system": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@modelcontextprotocol/server-filesystem",
+          "/Users/yourname/path/test"
+        ], 
+        "transport": "stdio"
+      }
+    }
+  }
