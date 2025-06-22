@@ -69,17 +69,17 @@ It can even search for relevant websites without being given exact URLs. In the 
 
 ```bash
 python mascot_ai_agent.py
-
+```
 On the first launch, the mascot will say “Preparing AI…”. Once it’s ready, feel free to start chatting!
 
-⸻
+---
 
 ## ⚠️ Notes
 - This app runs persistently on your desktop but is not packaged as a standalone desktop app.
 - Gemini API setup is required separately.
 - GUI size and position are fixed (movable), and shutdown functionality needs to be added manually.
 
-⸻
+---
 
 ## 📄 License
 
